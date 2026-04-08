@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(desenvolvedor-front-end-1024x684.png);
+    background-size: cover;
+    color: beige;
+    align-items: center;
+    flex-direction: column;
+    display: flex
+}
+
+.perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 8px;
+    margin-top: 80px;
+}
+
+.inst {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 12px;
+    width: 700px;
+    text-decoration: none;
+    display: inline-block;
+    color: #da147d;
+    transition: 0.3s;
+    margin: 5px;
+    text-align: center;
+    margin-top: 10px;
+    background: linear-gradient(45deg, #a44df5, #ff9de2);
+    text-shadow: 2px 2px 5px black;
+}
+
+.inst:hover {
+    transform: scale(1.1);
+}
+
+.lin {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 12px;
+    width: 700px;
+    text-decoration: none;
+    display: inline-block;
+    color: #0000FF;
+    transition: 0.3s;
+    margin: 5px;
+    text-align: center;
+    background: linear-gradient(45deg, #00BFFF, #ffffff);
+    text-shadow: 2px 2px 5px black;
+}
+
+.lin:hover {
+    transform: scale(1.1);
+}
+
+.git {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 12px;
+    width: 700px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    transition: 0.3s;
+    text-align: center;
+    background: linear-gradient(45deg, #ffffff, #3f3f3f);
+    text-shadow: 2px 2px 5px black;
+}
+
+.git:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 6px black;
+}
+
+.inst img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.lin img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.git img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+h3 {
+    color: #ffffff;
+    text-shadow: 2px 2px 6px #000000;
+}
